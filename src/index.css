@@ -1,0 +1,99 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow: hidden;
+}
+/* Html Background Curve */
+.custom-shape-divider-bottom-1737451502 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1737451502 svg {
+    position: relative;
+    display: block;
+    width: calc(149% + 1.3px);
+    height: 296px;
+}
+
+.custom-shape-divider-bottom-1737451502 .shape-fill {
+    fill: #E7D6D6;
+}
+/* Html Weather Style */
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    padding: 30px;
+    margin-top: 20px;
+    background: rgba(187, 174, 174, 0.28);
+    border-radius: 16px;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    border: 1px solid rgba(187, 174, 174, 0.86);
+}
+
+.box>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+div>input{
+    font-size: 18px;
+    margin-left: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.weather-container{
+    width: 1000px;
+    display: flex;
+    height: 400px;
+    /* From https://css.glass */
+    background: rgba(187, 174, 174, 0.28);
+    border-radius: 16px;
+    box-shadow: 2px 8px 15px rgba(0, 0, 0, 0.8); /* Adjusted shadow */
+    backdrop-filter: blur(12.4px);
+    -webkit-backdrop-filter: blur(12.4px);
+    border: 1px solid rgba(8, 10, 9, 0.3);
+}
+
+.city-title{
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.city-title>h3{
+    margin-top: 20px;
+}
+
+.city-temp{
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 500px;
+}
